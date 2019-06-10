@@ -1,0 +1,68 @@
+.main_box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Header */
+.main_box--header{
+  margin-top: -200px;
+  margin-bottom: 50px;
+  width: 700px;
+  text-align: center;
+}
+.main_box--header h2{
+  color: #fff;
+  font-size: 32px;
+}
+.main_box--header p{
+  color: #ccc;
+  font-size: 20px;
+}
+
+/* Main */
+.main_box--main{
+  width: 500px;
+  height: auto;
+  position: relative;
+  border-radius: 7.5px;
+  box-shadow: 0px 0px 25px rgba(0,0,0,.35);
+}
+.main_box--main--title{
+  width: 100%;
+  height: 100px;
+  background: rgb(250,250,250);
+  padding: 20px;
+  border-radius: 7.5px 7.5px 0px 0px  ;
+}
+.main_box--main--login{
+  padding: 20px;
+  width: 100%;
+  height: 210px;
+  background: rgb(200, 200, 200);
+  box-shadow: inset 0px 5px 5px rgba(0,0,0,.15); 
+  border-radius: 0px 0px 7.5px 7.5px;
+}
+.main_box--main--signUp{
+  padding: 20px;
+  width: 100%;
+  height: 250px;
+  background: rgb(200, 200, 200);
+  box-shadow: inset 0px 5px 5px rgba(0,0,0,.15); 
+  border-radius: 0px 0px 7.5px 7.5px;
+}
+.main_box--main--login input,
+.main_box--main--signUp input{
+  margin: 10px 0px ;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+}
+.main_box--main--login button,
+.main_box--main--signUp button{
+  margin: 10px 0px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,.25);
+  padding: 7.5px;
+  width: 100%;
+  cursor: pointer;
+}
