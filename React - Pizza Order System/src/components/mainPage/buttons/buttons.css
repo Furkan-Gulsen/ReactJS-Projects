@@ -1,0 +1,27 @@
+.Buttons{
+  margin-top: 20px;
+}
+
+.Button{
+  font-size: 22px;
+  width: 180px;
+  height: 40px;
+  line-height: 40px;
+  background: #262626;
+  color: #f2f2f2;
+  border: none;
+  border-radius: 5.2px;
+  text-align: center;
+  transition: .35s;
+}
+.Button:hover{
+  -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.35);
+  -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.35);
+  box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.35);
+}
+
+.Price{
+  margin-top: 40px;
+  margin-bottom: 40px;
+
+}

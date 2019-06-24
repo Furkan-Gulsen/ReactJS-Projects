@@ -1,0 +1,81 @@
+.imageBox{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+.image{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: url("../../../images/pizza.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.Mushroom{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/mushroomss.png");
+  background-size: cover;
+}
+.Olive{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/olives.png");
+  background-size: cover;
+}
+.GreenPepper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/papperGreens.png");
+  background-size: cover;
+  z-index: 100;
+}
+.Sausage{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/sausagess.png");
+  background-size: cover;
+}
+.Tomato{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/tomato.png");
+  background-size: cover;
+}
+.RedPepper{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("../../../images/papperRed.png");
+  z-index: 100;
+  background-size: cover;
+}
+
+
+@media (max-width: 1125px){
+  .imageBox{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+}

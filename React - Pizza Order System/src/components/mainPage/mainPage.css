@@ -1,0 +1,114 @@
+.MainPage{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+@media (max-width: 1125px){
+  .MainPage{
+    flex-direction: column;
+  }
+}
+
+.OptionsBox{
+  position: relative;
+  float: right;
+  width: 600px;
+  height: 600px;
+}
+.Options{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media (max-width: 1125px){
+  .OptionsBox{
+    margin-bottom: -100px;
+  }
+  .Options{
+    position: absolute;
+    top:0;
+    transform: translate(-50%,0);
+    height: 600px;
+    padding: 20px;
+  }
+}
+
+.BaseBox{
+  display: grid;
+  grid-template-areas: "Label1 Label2";
+  font-size: 18px;
+};
+
+.Label1{
+  grid-area: "Label1";
+}
+
+.Label2{
+  grid-area: "Label2";
+}
+
+.Title{
+  margin-top: 20px;
+}
+
+.OptionsBox{
+  position: relative;
+  float: right;
+  width: 600px;
+  height: 600px;
+}
+.Options{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+@media (max-width: 1125px){
+  .OptionsBox{
+    margin-bottom: -100px;
+  }
+  .Options{
+    position: absolute;
+    top:0;
+    transform: translate(-50%,0);
+    height: 600px;
+    padding: 20px;
+  }
+}
+
+.Title{
+  margin-top: 25px;
+}
+.Labels{
+  display: grid;
+  grid-template-areas: "LeftLabel RightLabel";
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.LeftLabel{
+  grid-area: "LeftLabel";
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.RightLabel{
+  grid-area: "RightLabel";
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
